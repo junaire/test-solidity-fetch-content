@@ -1,0 +1,6 @@
+This repo is used for illustrating a bug in solidity.
+
+To reproduce, run commands below:
+
+mdkir build && cd build
+cmake ../
