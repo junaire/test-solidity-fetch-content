@@ -6,8 +6,8 @@ project(test)
 include(FetchContent)
 FetchContent_Declare(
   solidity
-  GIT_REPOSITORY https://github.com/ethereum/solidity.git
-  GIT_TAG v0.8.20
+  GIT_REPOSITORY https://github.com/junaire/solidity.git
+  GIT_TAG origin/fix-wrong-cmake-variable
 )
 
 FetchContent_MakeAvailable(solidity)

@@ -1,3 +1,5 @@
-#include <iostream>
+#include "libsolidity/ast/AST.h"
 
-int main() { std::cout << "Hello, world!\n"; }
+int main() {
+  std::cout << "Hello, world!\n";
+}
